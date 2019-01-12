@@ -5,7 +5,7 @@ import SearchBar from './SearchBar.js'
 
 const App = () =>  {
   return (
-    <div>
+    <div classname="ui container" style={{marginTop: '10px'}}>
      <SearchBar />
     </div>
   )
