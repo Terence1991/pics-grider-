@@ -2,7 +2,7 @@ import React from 'react'
 import './imageList.css'
 
 const ImageList = (props) => {
- const imageList = props.images.map((cars, id, urls ) => {
+ const imageList = props.images.map(({cars, id, urls}) => {
    return <img alt={cars} key={id} src={urls.regular}/>
 
  })
